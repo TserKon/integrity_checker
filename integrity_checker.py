@@ -33,5 +33,5 @@ def check_integrity(dir_path):
 
 # When run it prompts for a path and then it scans every file in the provided path.
 if __name__ == "__main__":
-    dir_to_check = input("Type the directory path to check Integrity: ")
+    dir_to_check = input("Enter the directory path to check Integrity: ")
     check_integrity(dir_to_check)
